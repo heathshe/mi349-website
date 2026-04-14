@@ -1,0 +1,118 @@
+/* Add screen styles below */
+html {
+    background: #e3e3e3;
+
+}
+
+
+body {
+    
+    font-family: Helvetica, sans-serif;
+    border-top: 30px solid #242424;
+
+
+    margin: 40px;
+    padding: 40px;
+    color:#242424;
+    background: #fff;
+    
+}
+
+h1 {
+    font-size: 3em;
+    position: sticky;
+    top: 0px;
+    
+    margin: 0;
+
+}
+
+
+section {
+    display: flex;
+    
+}
+
+.callout {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+img {
+    width: 35%;
+    float: left;
+}
+
+
+
+h2 {
+    margin: 0 0 10px 0;
+}
+
+
+
+p {
+    
+    line-height: 1em;
+ 
+    
+
+    
+}
+
+#blog-post {
+    border-top: 1px dotted #ccc;
+    
+
+}
+
+.position {
+    background: #e3e3e3;
+    position:relative;
+    top: 25px;
+    left: 25px;
+}
+
+
+
+
+.blog {
+    border-bottom: 1px dotted #ccc;
+    
+
+}
+
+article {
+    background: #999;
+    padding: 20px;
+    margin: 20px;
+}
+
+article:nth-of-type(1) {
+    flex: 1000px;
+}
+
+article:nth-of-type(2) {
+    flex: 300px;
+
+}
+
+article:nth-of-type(3) {
+    flex: 1000px;
+    
+}
+
+h3 {
+    background: #555;
+}
+
+footer {
+    background: #e3e3e3;
+}
+
+header {
+    background: #e3e3e3;
+}
